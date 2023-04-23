@@ -17,7 +17,7 @@
     "username": "postgres",
     "password": "patNotes_server",
     "database": "postgres",
-    "port": 6543,
+    "port": 5432,
     "host": "db.okfqvamxyecxafaizjsx.supabase.co",
     "dialect": "postgres"
   }
