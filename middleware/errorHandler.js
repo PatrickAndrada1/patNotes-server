@@ -54,6 +54,6 @@ async function errorHandler(error, req, res, next) {
       break;
   }
   res.status(status).json({ message });
-  console.log(error, "<< dari err hand");
+  console.log(error, "<< from err hand");
 }
 module.exports = errorHandler;
