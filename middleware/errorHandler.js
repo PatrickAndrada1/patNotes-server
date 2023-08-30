@@ -7,6 +7,10 @@ async function errorHandler(error, req, res, next) {
       status = 401;
       message = "Invalid Token";
       break;
+    case "TokenExpiredError":
+      status = 401;
+      message = "Session Timeout";
+      break;
     case "invalid access":
       status = 401;
       message = "Login First";

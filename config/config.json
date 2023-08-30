@@ -15,6 +15,7 @@
   },
   "production": {
     "username": "postgres",
+    "use_env_variable": "DATABASE_URL",
     "password": "patNotes_server",
     "database": "postgres",
     "port":5432,
